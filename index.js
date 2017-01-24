@@ -14,9 +14,12 @@ var port = 8080;
    response.sendFile('signup.html', { root: __dirname + '/public/html/'});
  });
 
-  server.get('/index', function(request, response){
-    response.sendFile('index.html', { root: __dirname + '/public/html/'});
-  });
+
+// Uncomment this part to get links back to the home page to work!
+
+//  server.get('/index', function(request, response){
+//    response.sendFile('index.html', { root: __dirname + '/public/html/'});
+//  });
 
  server.listen(port, function(){
    console.log("Now listening on port", port);

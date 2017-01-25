@@ -12,3 +12,9 @@
 .button-green{
   background-color: green;
 }
+
+#navlist li {
+  display:inline;
+  list-style-type: none;
+  padding-right: 20px;
+  }

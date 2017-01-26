@@ -1,7 +1,7 @@
 .button {
   width: 150px;
   border: 1px solid black;
-  height: 10px;
+  height: 25px;
   display: inline-block;
   text-align: center;
   border-radius: 5px
@@ -13,7 +13,7 @@
 .button:hover{
   background-color: white;
   color: green;
-  fornt-size:300%;
+  opacity: 1;
 }
 
 .pull-right{
@@ -22,8 +22,37 @@ margin-left:10px;
 margin-right:10px;
 }
 
-.button-green{
-  background-color: green;
+.button-white{
+  background-color: white;
+}
+.button-see-thru{
+  opacity: 0.5;
+}
+
+  .box{
+	width:100px;
+	height:100px;
+}
+
+
+.headline{
+	background-color:green;
+  width:100%;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+}
+ /*this will select every .headline and h1*/
+
+.headline>h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight:400;
+  padding: 80px 0;
+  margin: 0;
 }
 
 #navlist li {

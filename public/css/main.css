@@ -55,8 +55,43 @@ html, body{
   margin: 0;
 }
 
-#navlist li {
+.nav-container{
+  background-color:white;
+  border: 1px dotted grey;
+}
+.nav-list{
+  margin: 0;
+  text-align:center;
+}
+
+.nav-list li{
+  display:inline-block;
+  padding: 10px 20px;
+  box sizing: border-box;
+  border-left:1px solid lightgrey;
+  border-right:1px solid lightgrey;
+  margin: auto -2px;
+}
+ .nav-list li:first-child{
+  border-left: 1px solid lightgrey;
+
   display:inline;
   list-style-type: none;
   padding-right: 20px;
   }
+
+.nav-list li:hover{
+  border-bottom: 2px solid green;
+}
+
+.card{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  
+}
+.card-signup{
+  background-color: green;
+}

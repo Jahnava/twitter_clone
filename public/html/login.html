@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html>
+  <html>
   <head>
-    <meta charset="utf-8">
-    <title>Login to Twitterish</title>
+        <meta charset="utf-8">
+        <title>Log in to Twitterish</title>
+        <link rel="stylesheet"  href="css/login.css">
   </head>
   <body>
-    <header>
-      <h3>Login to Twitterish</h3>
-    </header>
-<main>
- <form action="/login" method="GET">
-  <input type="email" name='email'/>
-  <input type="password" name='password'/>
-  <button type="submit">Login</button>
- </form>
-</main>
-        <footer>
-        Don't have an account?<a href="signup">sign up</a>
+        <div class="wrap">
+  <header>
+       <h4 style="color:#8899a6;"><center>Log in to Twitterish</center></h3>
+       <hr>
+
+  </header>
+
+        <center><form action="/login" method="GET">
+         <input class="text-box" type="email" name='email'/>
+         <input class="text-box" type="password" name='password'/><center/>
+
+        <center><button class="btn-login">Log in</button</center>
 
 
-        </footer>
-  </body>
-</html>
+
+
+<footer>
+  <br>
+<hr>
+         <small><p style="color:black;">Don't have an account? <a style="color:#3498db;" href="signup">sign up>></a></p></small>
+
+</footer>
+</div>
+ </body>
+  </html>

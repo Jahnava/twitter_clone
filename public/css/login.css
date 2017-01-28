@@ -3,7 +3,7 @@
   padding: 0;
   font-family: Arial,sans-serif;
   font-size: 15px;
-  background-color: #3498db;
+  background-color: #666;
   }
 
   .wrap {
@@ -27,7 +27,6 @@
     padding: 10px;
   }
 
-
   .wrap .btn-login {
     padding: 5px;
     width: 400px;
@@ -39,3 +38,12 @@
     font-size: 18px;
     margin-bottom: 65px;
   }
+
+/* Beginning Twitter bird code that I found on the internet.*/
+  .twitter-bird {
+    background-image: url(http://dl.dropboxusercontent.com/u/105046436/tw.png);
+    display: inline-block;
+    height: 38px;
+    width: 37.5px;
+}
+  /* end of twitter bird code that i did not write*/

@@ -2,18 +2,86 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+         <title>Sign up for Twitterish</title>
+         <link rel="stylesheet" href="css/signup.css">
   </head>
   <body>
-<h1> This is the sign up page! </h1>
 
 
 
-    <a href="index">Home Page</a>
+<!--nav bar starts here-->
+<ul id="menu-bar">
 
-    <br>
-    <br>
 
-        <a href="login">login</a>
-  </body>
+
+<li><a href="#">Have an account? Log in</a>
+   <ul>
+      <p>Have an account?</p></a>
+    <input class="text-box" type="email" name='email' placeholder="Phone, email or username"/>
+      <br>
+      <br>
+    <input class="password" type="password" name='password' placeholder="Password"/>
+
+
+    <div class="dropbutton">
+        <a><button class="btn-login">Log in</button></a>
+          <hr>
+             <p>New to Twitterish?</p>
+        <a><center><button class="btn-signup">Sign up</button></center></a>
+    </div>
+    </ul>
+    </li>
+
+    <li><a href="#">Language: English</a>
+      <ul>
+         <li><a href="#">Bahasa Indonesia</a></li>
+         <li><a href="#">Catala</a></li>
+         <li><a href="#">Dansk</a></li>
+         <li><a href="#">English UK</a></li>
+         <li><a href="#">Filipino</a></li>
+         <li><a href="#">Hrvatski</a></li>
+         <li><a href="#">Magyar</a></li>
+         <li><a href="#">Norsk</a></li>
+         <li><a href="#">Portugues</a></li>
+         <li><a href="#">Slovencina</a></li>
+         <li><a href="#">Svenska</a></li>
+     </ul>
+    </li>
+
+    <!--    <li><center><div class="twitter-bird"></div></center></li>-->
+        <li><div class="twitter-bird"><center><img src="/html/twitterish.png" height=37px width=37px/></center></div></li>
+<!--end of nav bar -->
+
+<!--Signup box info and title starts here-->
+         <div class="wrap">
+    <header>
+        <h1>Join Twitterish today.</h1>
+
+    </header>
+
+    <center>
+      <form action="/signup" method="GET">
+        <!--add username bar here-->
+      <input class="text-box" type="email" name='email'placeholder="Full name"/>
+      <input class="text-box" type="email" name='email'placeholder="Phone or Email"/>
+      <input class="password" type="password" name='password'placeholder="Password"/>
+    </center>
+    <!--signup box ends here-->
+<div>
+    <center><button class="btn-signup">Sign up</button></center>
+<footer>
+         <p>By signing up, you agree to the <font color="blue">Terms of Service</font> and <font color="blue">Privacy Policy</font>,
+          including <font color="blue">Cookie Use</font>. Others will be able to find you by email or phone
+          number when provided.
+          <br>
+          <br>
+          <font color="blue">Advanced Options.</font>
+        </p>
+
+
+  </footer>
+
+
+</body>
+
 </html>

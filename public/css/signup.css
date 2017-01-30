@@ -1,0 +1,241 @@
+/* background*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background-color: white;
+  }
+
+ /*header */
+  h1 {
+    font-weight:normal; /*h1 is automatically bold(Twitter text is not)- this changes h1 to normal*/
+    margin-left: 55px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+   }
+
+/*starting signup box and contents here*/
+.wrap {
+  width: 450px;
+  overflow: hidden;
+  margin: auto;
+  /*deturmines the amount of space above box*/
+  margin-top: 100px;
+  background: white;
+  padding: 20px;
+  border: 1px grey;
+  border-radius: 5px;
+  font-family: Arial,sans-serif;
+    }
+
+/*settings for main signup/password bars*/
+.wrap input {
+  width:350px;
+  height:25px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  border-radius: 3px;
+  border: 1px solid #e1e8ed;
+  padding: 10px;
+}
+
+/*settings for main signup button*/
+.wrap .btn-signup {
+  padding: 12px 16px;
+  width:392px;
+  height: 45px;
+  background-color: #1da1f2;
+  color:white;
+  border-radius: 3px;
+  border: 0;
+  font-size: 18px;
+  margin-bottom: 5px;
+cursor: pointer;
+}
+
+
+/* styles for signup drop-down buttons in the navigation bar */
+.dropbutton .btn-signup {
+  padding: 0px;
+  width:150px;
+  height: 30px;
+  background-color: #8899a6;
+  color:white;
+  float:center;
+  border-radius: 3px;
+  border: 0;
+  font-size: 14px;
+  margin-bottom: 0px;
+  cursor: pointer;
+
+}
+/*styles for login drop-down button in nav bar*/
+.dropbutton .btn-login {
+  padding: 8px 16px;
+  width:80px;
+  height: 30px;
+  background-color: #1da1f2;
+  color:white;
+  border-radius: 3px;
+  border: 0;
+  font-size: 12px;
+  margin-bottom: 5px;
+  border: 1px solid #3b88c3;
+  cursor: pointer;
+
+}
+
+/*Beginning Twitter bird code that I found on the internet.*/
+  .twitter-bird {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+
+    margin-right: 300px;
+    margin-left: auto;
+  /*  background-image: url(file:///C:/Users/Jahnava Dev Academy/Gdev/twitterish.png);*/
+  /*  background-image: url(http://dl.dropboxusercontent.com/u/105046436/tw.png);*/
+    display: inline-block;
+    height: 37px;
+    width: 37px;
+}
+  /* end of twitter bird code that i did not write*/
+
+
+
+  /*sets height,color, and width of Navigation bar header*/
+  #menu-bar {
+    /*sets width of bar*/
+    width: 100%;
+    /*keeps bar at the top of page*/
+    margin: 0px 0px 0px 0px;
+    /*adds padding to nav bar to make it bigger or smaller*/
+    padding: 6px 6px 4px 6px;
+    /*sets bar height*/
+    height: 40px;
+    /*sets button height*/
+    line-height: 100%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    /* Creates gradient for all browsers */
+    background: -webkit-linear-gradient(left, #59ADEB , #34CE93); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #59ADEB, #34CE93); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #59ADEB, #34CE93); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #59ADEB , #34CE93); /* Standard syntax */
+    position:relative;
+    z-index:999;
+    }
+
+  /*keeps li in nav bar*/
+  #menu-bar li {
+    margin: 0px 0px 6px 0px;
+    padding: 0px 6px 0px 6px;
+    float: right;
+    position: relative;
+    list-style: none;
+  }
+
+/*makes nav buttons look like buttons*/
+  #menu-bar a {
+    font-weight: bold;
+    font-family: arial;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 6px 20px 6px 20px;
+    margin: 0;
+    margin-bottom: 6px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+  }
+
+
+/*makes background color in dropdown lists*/
+  #menu-bar ul a:hover {
+    background: #0399D4 !important;
+    background: linear-gradient(top,  #04ACEC,  #0186BA) !important;
+    background: -ms-linear-gradient(top,  #04ACEC,  #0186BA) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#04ACEC), to(#0186BA)) !important;
+    background: -moz-linear-gradient(top,  #04ACEC,  #0186BA) !important;
+    color: #FFFFFF !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    text-shadow: 2px 2px 3px #FFFFFF;
+  }
+
+
+/* creates dropdown menu*/
+#menu-bar li:hover > ul {
+    display: block;
+  }
+
+
+  /*puts sub lists into dropdown menu*/
+  #menu-bar ul {
+    background: #DDDDDD;
+    background: linear-gradient(top,  #FFFFFF,  #CFCFCF);
+    background: -ms-linear-gradient(top,  #FFFFFF,  #CFCFCF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
+    background: -moz-linear-gradient(top,  #FFFFFF,  #CFCFCF);
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 185px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    border: solid 1px #B4B4B4;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 3px #222222;
+    -moz-box-shadow: 2px 2px 3px #222222;
+    box-shadow: 2px 2px 3px #222222;
+  }
+
+
+  /*floats the dropdown sublists text positions*/
+  #menu-bar ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /*sets color for dropdown sublist text*/
+  *#menu-bar ul a {
+    padding:10px 0px 10px 15px;
+    color:#424242 !important;
+    font-size:12px;
+    font-style:normal;
+    font-family:arial;
+    font-weight: normal;
+    text-shadow: 2px 2px 3px #FFFFFF;
+  }
+
+  /*makes dropdown menu have rounded edges(sets dropdown radius)*/
+  #menu-bar ul li:last-child > a {
+    border-bottom-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+  }
+/* end nav*/
+
+/*settings for footer*/
+footer {
+line-height: 18px;
+font-size: 12px;
+color: #8899a6;
+margin-left: 10px;
+
+
+}
